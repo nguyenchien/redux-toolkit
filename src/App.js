@@ -1,8 +1,9 @@
-import { Navbar } from "./components";
+import { Navbar, CartContainer } from "./components";
 function App() {
   return (
    <main>
     <Navbar />
+    <CartContainer />
    </main> 
   );
 }
